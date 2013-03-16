@@ -7,7 +7,6 @@ Raven2DB is a simple 'c' application to read a communication port that is attach
   - requires [rainforest] RAVEn(tm) device
   - application runs as root
 
-<<<<<<< HEAD
 This is a very simple app that I needed to just save the XML. 
 I can not support the set up of this application on your system. 
 I currently just run mine as a ROOT user to stuff the data in.  
@@ -15,9 +14,6 @@ If you want to run this as a different user, you will need to give
 access to the Communicaiton port to that user and so on.  The same 
 is for the MySQL database, you need to give access to your database 
 and table for this program to write to the tabel.
-=======
-This is a very simple app that I needed to just save the XML. I can not support the set up of this application on your system.  I currently just run mine as a ROOT user to stuff the data in.  If you want to run this as a different user. You will need to give access to the Communicaiton port to that user and so on.  The same is for the MySQL database, you need to give access to your database and table for this program to write to the tabel.
->>>>>>> 8e2de0ab25ab98d87f61c695c4fcf4f774e89d99
 
 
 Device
@@ -65,10 +61,7 @@ Using your favoriate MySQL tool(s) create a Database called **raven** and the **
     ) ENGINE=MyISAM AUTO_INCREMENT=60072 DEFAULT CHARSET=latin1;
  
  
-<<<<<<< HEAD
 
-=======
->>>>>>> 8e2de0ab25ab98d87f61c695c4fcf4f774e89d99
  
 STEP #3 - Compile application 
 -
@@ -78,18 +71,14 @@ Pull the files to a directory and run make to complie the application.  This is 
 
     make
 
-<<<<<<< HEAD
 Also supported is a clean make command
 
 	make clean
 
-=======
->>>>>>> 8e2de0ab25ab98d87f61c695c4fcf4f774e89d99
 
 STEP #4 - Install/RUN
 -
 
-<<<<<<< HEAD
 I never built a install script, so I just run it where its installed.
 You will want to edit and modify the **raven2db.ini** file to match your setup
 
@@ -106,9 +95,6 @@ You will want to edit and modify the **raven2db.ini** file to match your setup
 	  USBDev=/dev/ttyUSB0
 
 I've included a sample config script for your /etc/init.d/ directory.
-=======
-I never built a install script, so I just run it where its installed. I've included a sample config script for your /etc/init.d/ directory.
->>>>>>> 8e2de0ab25ab98d87f61c695c4fcf4f774e89d99
 
 
     #!/bin/sh
@@ -141,7 +127,4 @@ Open Software License v. 3.0 ([OSL-3.0])
   [RAVEn]:http://www.rainforestautomation.com/raven
   
 
-<<<<<<< HEAD
     
-=======
->>>>>>> 8e2de0ab25ab98d87f61c695c4fcf4f774e89d99
