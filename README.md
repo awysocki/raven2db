@@ -101,7 +101,3 @@ Open Software License v. 3.0 ([OSL-3.0])
   [RAVEn]:http://www.rainforestautomation.com/raven
   
 
-    raven2db
-========
-
-rainforest automation RAVEn (Radio Adaptor for Viewing Energy) read and store into MySQL
