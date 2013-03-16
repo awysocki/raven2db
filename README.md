@@ -79,7 +79,22 @@ Also supported is a clean make command
 STEP #4 - Install/RUN
 -
 
-I never built a install script, so I just run it where its installed. I've included a sample config script for your /etc/init.d/ directory.
+I never built a install script, so I just run it where its installed.
+You will want to edit and modify the **raven2db.ini** file to match your setup
+
+	[Raven2DB]
+	  SQLUser=ravenU
+	  SQLPassword=ravenP
+	  SQLHost=localhost
+	  SQLDatabase=raven
+	  SQLTable=ravenxml
+
+	  Debug=No
+	  DebugLog=./raven2db.log
+
+	  USBDev=/dev/ttyUSB0
+
+I've included a sample config script for your /etc/init.d/ directory.
 
 
     #!/bin/sh
