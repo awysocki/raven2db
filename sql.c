@@ -6,7 +6,7 @@
 /* This code is release under the Open Software License v. 3.0 (OSL-3.0)									*/
 /*					http://opensource.org/licenses/OSL-3.0													*/
 /*																											*/
-/*	Release 1.0 - 03/15/2012																				*/
+/*	Release 1.0 - 03/15/2014																				*/
 /*																											*/
 /* ======================================================================================================== */
 
