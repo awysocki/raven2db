@@ -1,10 +1,10 @@
 RAVEN2DB
 =========
 
-Raven2DB is a simple 'c' application to read a communication port that is attached to a rainforest automation RAVEn device and store the raw XML data into a MySQL database.
+Raven2DB is a simple 'c' application to read a communication port that is attached to a rainforest automation RAVEn USB device and store the raw XML data into a MySQL database.
 
   - requires MySQL-Devel packages
-  - requires [rainforest] RAVEn(tm) device
+  - requires [rainforest] RAVEn(tm) hardware device
   - application runs as root
 
 This is a very simple app that I needed to just save the XML. 
